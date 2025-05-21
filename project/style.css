@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max width: 80%;
+    background-color: skyblue;
+    padding: 34px;
+    margin: auto;
+}
+.container h1,p{
+    text-align: center;
+}
+input,textarea{
+    
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 11px 0px;
+    padding: 4px;
+    font-size: 10px;
+    outline: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
